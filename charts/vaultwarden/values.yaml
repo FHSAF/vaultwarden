@@ -1,5 +1,5 @@
 ## Instruction: when adding a new value, follow https://github.com/dani-garcia/vaultwarden/blob/main/.env.template as much as possible.
-
+# For new features, also check the vaultwarden documentation and source code to see if there are any additional related settings that also need to be added.
 ## @section Kubernetes settings
 ##
 image:
