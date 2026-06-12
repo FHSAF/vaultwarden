@@ -1,3 +1,25 @@
 apiVersion: v1
-entries: {}
-generated: "2026-06-12T00:00:00.000000000Z"
+entries:
+  vaultwarden:
+  - apiVersion: v2
+    appVersion: 1.36.0
+    created: "2026-06-12T12:38:19.347195024Z"
+    description: vaultwarden is an unofficial Bitwarden-compatible server written
+      in Rust
+    digest: 5bdd7234811c948267b5aaf398193567981d85e19067293820eeac1c715b42ac
+    keywords:
+    - Rust
+    - vaultwarden
+    kubeVersion: '>=1.12.0-0'
+    maintainers:
+    - name: FHSAF
+      url: https://github.com/FHSAF
+    name: vaultwarden
+    sources:
+    - https://github.com/FHSAF/vaultwarden
+    - https://github.com/dani-garcia/vaultwarden
+    type: application
+    urls:
+    - https://github.com/FHSAF/vaultwarden/releases/download/v0.38.1/vaultwarden-0.38.1.tgz
+    version: 0.38.1
+generated: "2026-06-12T12:38:19.347220001Z"
