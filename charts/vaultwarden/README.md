@@ -36,7 +36,7 @@ Example that uses the Alpine-based image `1.24.0-alpine` and an existing secret 
 ```yaml
 image:
   registry: ghcr.io
-  repository: guerzon/vaultwarden
+  repository: vaultwarden/server
   tag: "1.24.0-alpine"
   pullSecrets:
     - name: myRegKey

@@ -1,6 +1,6 @@
 # Helm chart for Vaultwarden
 
-[![MIT Licensed](https://img.shields.io/github/license/guerzon/vaultwarden)](https://github.com/guerzon/vaultwarden/blob/main/LICENSE)
+[![MIT Licensed](https://img.shields.io/github/license/FHSAF/vaultwarden)](https://github.com/FHSAF/vaultwarden/blob/main/LICENSE)
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/vaultwarden)](https://artifacthub.io/packages/search?repo=vaultwarden)
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden), formerly known as **Bitwarden_RS**, is an "alternative implementation of the Bitwarden server API written in Rust and compatible with [upstream Bitwarden clients](https://bitwarden.com/download/), perfect for self-hosted deployment where running the official resource-heavy service might not be ideal."
@@ -26,7 +26,7 @@ Starting from version 0.18.0, when a stateless configuration is detected that ut
 Add the repository:
 
 ```bash
-helm repo add vaultwarden https://guerzon.github.io/vaultwarden
+helm repo add vaultwarden https://fhsaf.github.io/vaultwarden
 ```
 
 Refer to the detailed documentation [here](./charts/vaultwarden/README.md).
@@ -35,7 +35,7 @@ Refer to the detailed documentation [here](./charts/vaultwarden/README.md).
 
 Please do your due-diligence before using this chart for a production deployment.
 
-Nevertheless, if you find any issues while using this chart, or have any suggestions, I would appreciate it if you would [submit an issue](https://github.com/guerzon/vaultwarden/issues/new). Alternatively, PRs are appreciated!
+Nevertheless, if you find any issues while using this chart, or have any suggestions, I would appreciate it if you would [submit an issue](https://github.com/FHSAF/vaultwarden/issues/new). Alternatively, PRs are appreciated!
 
 ## License
 
@@ -43,11 +43,11 @@ See [LICENSE](./LICENSE).
 
 ## Author
 
-This Helm chart was created and maintained by [Lester Guerzon](https://guerzon.net).
+This Helm chart is maintained by [FHSAF](https://github.com/FHSAF). Originally created by [Lester Guerzon](https://guerzon.net).
 
 ### Maintainers
 
-Interested in maintaining this chart? Drop me an email at lester@guerzon[.]net.
+
 
 ### Credits
 
