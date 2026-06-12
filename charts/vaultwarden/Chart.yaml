@@ -12,5 +12,5 @@ appVersion: 1.36.0
 maintainers:
   - name: FHSAF
     url: https://github.com/FHSAF
-version: 0.38.0
+version: 0.38.1
 kubeVersion: ">=1.12.0-0"
